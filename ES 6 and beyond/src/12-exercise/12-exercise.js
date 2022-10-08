@@ -16,7 +16,9 @@
  */
 
 // Finish the code of the function
-function exercise12() {}
-
+function exercise12(array, entry) {
+    const newArray = array.includes(entry);
+    return newArray;
+}
 // Don’t change the code bellow this line
 export default exercise12;
