@@ -7,8 +7,10 @@ import { add } from "../utils/numbers";
  */
 describe("01-exercise", () => {
   test("add return the sum of the numbers", () => {
-    expect.assertions(1);
-
+    const a = 2;
+    const b = 4;
+    const resul = add(a, b);
+    expect(resul).toBe(6);
     // Finish the test
   });
 });
