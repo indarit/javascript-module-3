@@ -15,6 +15,7 @@ describe("05-exercises", () => {
 
     const prevList = [1, 2, 3, 4];
     const newItem = 5;
+    const resul = addItemToList(prevList);
 
     /**
      * Test that the addItemToList function adds the `newItem` variable to the
