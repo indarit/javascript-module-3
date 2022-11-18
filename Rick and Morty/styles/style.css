@@ -3,11 +3,9 @@
 }
 
 .col-3 {
-  background-color: rgb(212, 236, 236);
   flex-direction: column;
 }
 .col-9 {
-  background-color: rgb(255, 0, 183);
 }
 
 .character-img {
@@ -15,12 +13,18 @@
 }
 .panel-izq {
   display: flex;
+  border-right: 3px solid black;
 }
+
 .panel-izq > a {
   cursor: pointer;
   padding: 5px;
   font-size: 15px;
 }
 .panel-izq > a:hover {
-  background-color: aliceblue;
+  background-color: rgb(32, 35, 41);
+  color: white !important;
+}
+.character-target {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }

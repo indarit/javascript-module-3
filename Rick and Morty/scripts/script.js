@@ -24,9 +24,11 @@ root.appendChild(sectionsContainer);
 const fila = crearElemento("div", "row", "");
 sectionsContainer.appendChild(fila);
 
-const col1 = crearElemento("div", "col-3,panel-izq", "Episodes");
+const col1 = crearElemento("div", "col-3,panel-izq", "");
+const tituloEpisode = crearElemento("h2", "titulo", "Episodes");
 const col2 = crearElemento("div", "col-9,panel-der", "");
 
+col1.appendChild(tituloEpisode);
 fila.appendChild(col1);
 fila.appendChild(col2);
 
